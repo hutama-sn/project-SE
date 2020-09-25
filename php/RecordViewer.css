@@ -1,0 +1,184 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.42em;
+  display:flex;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  flex-direction: column;
+  color:black;
+  background-color: rgb(37,91,92);
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0,51,52);
+    display: flex;
+    margin: 0;
+}
+
+.Title{
+    width: 100%;
+    height: 30px;
+    font-size: 50px;
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Title img{
+    width: 50px;
+    height: 50px;
+}
+
+.dropbtn {
+    background-color: rgb(0,51,52);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+  
+  /* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+  /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px  rgb(0,51,52);
+    z-index: 1;
+    right: 0;
+}
+  
+  /* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    width: 250px;
+    text-decoration: none;
+    display: block;
+}
+  
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(0,51,52)}
+.dropdown:hover .dropdown-content {display: block;z-index: 1;}
+.dropdown:hover .dropbtn {background-color:  rgb(0,51,52);}
+
+#footer{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(0,51,52);
+    text-align: center;
+    color: aliceblue;
+}
+
+#footer img{
+    width: 50px;
+    height: 50px;
+    align-content: center;
+}
+
+h1 {
+  font-size:3em; 
+  font-weight: 300;
+  line-height:1em;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+h2 {
+    margin-left: 10%;
+    color: red;
+    font-weight: bold;
+}
+
+.blue { color: #185875; }
+.yellow { color: #FFF842; }
+
+.container th h1 {
+	font-weight: bold;
+	font-size: 1em;
+    text-align: left;
+    color: white;
+}
+
+.container td {
+	  font-weight: normal;
+	  font-size: 1em;
+}
+
+.container {
+	text-align: left;
+	overflow: hidden;
+	width: 100%;
+	margin: 0 auto;
+    display: table;
+    padding: 0 0 8em 0;
+    padding-top: 0;
+}
+
+.container h1{
+    padding-top: 0;
+}
+
+.scrollable{
+    overflow:hidden;
+    overflow-y: scroll;
+    height: 70vh;
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.container td, .container th {
+	padding-bottom: 2%;
+	padding-top: 2%;
+    padding-left:2%;  
+}
+
+/* Background-color of the odd rows */
+.container tr:nth-child(odd) {
+	  background-color: #A3A3A3;
+}
+
+/* Background-color of the even rows */
+.container tr:nth-child(even) {
+	  background-color: #CDCDD8;
+}
+
+.container th {
+	  background-color: #1F2739;
+}
+
+.container td:first-child { 
+    color: #240099; 
+    font-weight: bold;
+}
+
+.container td:nth-child(2) { 
+    color: #c41227; 
+    font-weight: bold;
+}
+
+#incomeContainer td:nth-child(2){
+    color: green;
+    font-weight: bold;
+}
+
+@media (max-width: 800px) {
+.container td:nth-child(4),
+.container th:nth-child(4) { display: none; }
+}

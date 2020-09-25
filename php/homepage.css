@@ -1,0 +1,196 @@
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(0,51,52);
+    display: flex;
+    margin: 0;
+}
+
+.Title{
+    width: 100%;
+    height: 30px;
+    font-size: 50px;
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Title img{
+    width: 50px;
+    height: 50px;
+}
+
+.dropbtn {
+    background-color: rgb(0,51,52);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+  
+  /* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+  /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+}
+  
+  /* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    width: 250px;
+    text-decoration: none;
+    display: block;
+}
+  
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color:rgb(0,51,52)}
+.dropdown:hover .dropdown-content {display: block;z-index: 1;}
+.dropdown:hover .dropbtn {background-color: rgb(0,51,52)}
+  
+body{
+    background-color: rgb(37,91,92);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-content: center;
+}
+
+.content{
+    width: 100%;
+    height: 2850px;
+    background-color:rgb(37,91,92) ;
+    color: aliceblue;
+}
+
+
+.image-container{
+    width: 90%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.picture{
+    width: 300%;
+    height: 500px;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition-:left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+}
+
+.image-slider{
+    float: left;
+    width: 33%;
+    padding: 0px;
+    margin: 7px;
+    border-radius: 0.5cm;
+}
+
+.button-slide{
+    top:-20px;
+    position: relative;
+}
+
+.slider-button{
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+#slider-image1:target ~ .picture{
+    left:0px;
+}
+#slider-image2:target ~ .picture{
+    left:-100%;
+}
+#slider-image3:target ~ .picture{
+    left:-200%;
+}
+
+.graph{
+    width: 80%;
+    height: 500px;
+    background-color: rgb(204, 226, 152);
+    margin-left:150px;
+    margin-right:150px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.add{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(204, 226, 152);
+    opacity: 0.8;
+    text-align: center;
+}
+
+
+#Registration{
+    width: 100%;
+    display: flex;
+}
+#Registration1{
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+#btn{
+    margin-left:125px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.text{
+    margin-left: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.add img{
+    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+.sticky + .graph {
+    padding-top: 102px;
+}
+
+#footer{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(0,51,52);
+    text-align: center;
+    color: aliceblue;
+}
+
+#footer img{
+    width: 50px;
+    height: 50px;
+    align-content: center;
+}

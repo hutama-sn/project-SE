@@ -1,0 +1,115 @@
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0,51,52);
+    display: flex;
+    margin: 0;
+}
+
+.Title{
+    width: 100%;
+    height: 30px;
+    font-size: 50px;
+    color: azure;
+}
+
+.dropbtn {
+    background-color: rgb(0,51,52);
+    color: azure;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+  
+  /* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+  /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(0,51,52);
+    z-index: 1;
+    right: 0;
+}
+  
+  /* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    width: 250px;
+    text-decoration: none;
+    display: block;
+}
+  
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color:rgb(0,51,52)}
+.dropdown:hover .dropdown-content {display: block;z-index: 1;}
+.dropdown:hover .dropbtn {background-color: rgb(0,51,52);}
+  
+body{
+    background-color: rgb(37,91,92);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    align-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content{
+    width: 100%;
+    height: 300px;
+    background-color:rgb(37,91,92) ;
+    color: aliceblue;
+}
+ 
+.settings{
+    width: 75%;
+    height: 180px;
+    background-color: rgb(204, 226, 152);
+    opacity: 0.8;
+    margin-top: 100px;
+    margin-left: 200px;
+    align-content: center;
+    color: black;
+    text-align: center;
+    border-radius: 0.5cm;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#button{
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#footer{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(0,51,52);;
+    text-align: center;
+    color: black;
+    position: absolute;
+    bottom: -1300px;
+}
+
+#footer img{
+    width: 50px;
+    height: 50px;
+    align-content: center;
+}
+
+.container {
+    width: 50%;
+    margin: 15px auto;
+}
+
+.Title img{
+    width: 50px;
+    height: 50px;
+}

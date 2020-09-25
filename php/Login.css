@@ -1,0 +1,147 @@
+body{
+    background-color:rgb(37,91,92);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+#header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(0,51,52);
+    margin: 0;
+    position: sticky;
+}
+
+.Title{
+    width: 100%;
+    height: 50px;
+    font-size: 50px;
+    color: white;
+}
+
+.Title img{
+    width: 50px;
+    height: 50px;
+}
+
+#LogIn{
+    width: 75%;
+    height: 400px;
+    /* background-color: rgb(98, 165, 126); */
+    background-color: rgb(204, 226, 152);
+    margin: 200px;
+    display: flex;
+    opacity: 0.8;
+    padding: 50px 20px;
+    border-radius: 0.5cm;
+}
+
+.image-container{
+    width: 75%;
+    height: 300px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.picture{
+    width: 400%;
+    height: 300px;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition-:left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+}
+
+.image-slider{
+    float: left;
+    width: 25%;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0.5cm;
+}
+
+.button-slide{
+    top:-20px;
+    position: relative;
+}
+
+.slider-button{
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: black;
+
+}
+
+#slider-image1:target ~ .picture{
+    left:0px;
+}
+#slider-image2:target ~ .picture{
+    left:-100%;
+}
+#slider-image3:target ~ .picture{
+    left:-200%;
+}
+
+.form{
+   width: 40%;
+   height: 400px;
+   align-content: center;
+}
+
+#loginform1{
+    margin:100px;
+}
+
+#loginform{
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+}
+
+#button{
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+#button a{
+    text-decoration: none;
+}
+#footer{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(0,51,52);
+    text-align: center;
+    color: aliceblue;
+}
+
+#footer img{
+    width: 50px;
+    height: 50px;
+    align-content: center;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+.input-group label {
+    display: block;
+    text-align: center;
+    margin: 3px;
+}
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}

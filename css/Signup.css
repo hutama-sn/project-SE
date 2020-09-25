@@ -1,0 +1,134 @@
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+.input-group label {
+    display: block;
+    text-align: center;
+    margin: 3px;
+}
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: black;
+    background: aliceblue;
+    border: none;
+    border-radius: 5px;
+}
+.error {
+    width: 92%; 
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: left;
+}
+.success {
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(37,91,92);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#header{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0,51,52);
+    display: flex;
+    margin: 0;
+}
+
+.Title{
+    width: 100%;
+    height: 30px;
+    font-size: 50px;
+    color: azure;
+}
+
+.navbar1{
+    height: 30px;
+    width: 200px;
+    text-align: center;
+}
+
+.navbar1 a{
+    font-size: 30px;
+    text-decoration: none;
+    color: azure;
+    text-align: center;
+}
+
+#Form{
+    color: black;
+}
+
+#Registration-Form{
+    text-align: center;
+    margin: 100px 400px;
+    background-color: rgb(204, 226, 152);
+
+}
+
+#Registration{
+    width: 100%;
+    background-color:rgb(204, 226, 152);
+    opacity: 0.8;
+    padding: 50px 20px;
+} 
+
+#button{
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.footer{
+    text-align: center;
+    background-color:rgb(0,51,52);
+    color: azure;
+}
+
+.footer img{
+    width: 50px;
+    height: 50px;
+   
+}
+.footer h2{
+    display: inline;
+    color: aliceblue;
+}
+
+#header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(0,51,52);
+    margin: 0;
+    position: sticky;
+}
+
+.Title{
+    width: 100%;
+    height: 50px;
+    font-size: 50px;
+    color: white;
+}
+
+.Title img{
+    width: 50px;
+    height: 50px;
+}
